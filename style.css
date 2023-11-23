@@ -1,0 +1,194 @@
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px
+}
+
+.box{
+    display: flex;
+    gap:20px;
+}
+
+
+button{
+   
+    padding: 8px 15px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.second_container button:nth-child(1){
+    background-color: white;
+    /* border: none; */
+
+}
+
+.second_container button:nth-child(2){  
+ 
+    background-color:#F5F5F5;
+
+}
+
+
+.second_container button:nth-child(3){
+ 
+    background-color: #363636;
+    color: white;
+
+}
+
+.second_container button:nth-child(4){
+    background-color: black;
+    color: white;
+}
+
+.second_container button:nth-child(5){
+  text-decoration: underline;
+  background-color: white;
+}
+
+.third_container button{
+    color: white;
+}
+
+.third_container button:nth-child(1){
+   
+    background-color: #04D1B2;
+}
+
+.third_container button:nth-child(2){
+
+    background-color: #3173DC;
+}
+.third_container button:nth-child(3){
+
+    background-color: #3173DC;
+}
+.third_container button:nth-child(4){
+
+    background-color: #49C774;
+}
+.third_container button:nth-child(5){
+
+    background-color: #FFDD57;
+    color: black;
+}
+.third_container button:nth-child(6){
+
+    background-color: #F14667;
+  
+}
+
+.fourth_container button:nth-child(1){
+    background-color: #EBFFFC;
+    color: #36A592;
+}
+.fourth_container button:nth-child(2){
+    background-color: #EEF3FC;
+    color: #3B72CB;
+}
+
+.fourth_container button:nth-child(3){
+    background-color: #EDF6FC;
+    color: #2375AB;
+}
+.fourth_container button:nth-child(4){
+    background-color: #EFFAF2;
+    color: #74A984;
+}
+.fourth_container button:nth-child(4){
+    background-color: #EFFAF2;
+    color: #74A984;
+}
+.fourth_container button:nth-child(5){
+    background-color: #FFFBEC;
+    color: #A38825;
+}
+.fourth_container button:nth-child(6){
+    background-color: #FEECF0;
+    color: #D02145;
+}
+
+.fifth_container button{
+
+background-color: white;
+border: 1px black solid;
+}
+
+.fifth_container button:nth-child(1){
+    background-color: white;
+    border: 1px black solid;
+    font-size: 12px;
+    }
+
+    .fifth_container button:nth-child(2){
+        background-color: white;
+        border: 1px black solid;
+        font-size: 13px;
+        }
+
+.fifth_container button:nth-child(4){
+    background-color: white;
+    border: 1px black solid;
+    font-size: medium;
+    
+}
+
+.fifth_container button:nth-child(5){
+    background-color: white;
+    border: 1px black solid;
+    font-size: large;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
